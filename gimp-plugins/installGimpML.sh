@@ -16,6 +16,9 @@ if [ ! -d "gimpenv" ]; then
 		elif [[ $(lsb_release -rs) == "10" ]]; then #for debian 10
 			wget https://bootstrap.pypa.io/get-pip.py 
 			python get-pip.py
+		else
+			# archlinux
+			alias python='python2'
 		fi
 	fi
 
