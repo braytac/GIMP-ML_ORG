@@ -12,6 +12,10 @@ The plugins have been tested with GIMP 2.10 on the following machines: <br>
 ![image1](https://github.com/kritiksoman/GIMP-ML/blob/master/screenshot.png)
 
 # Installation Steps
+[0] Archlinux/Manjaro: 
+    pacman -S python2-pip --noconfirm 
+    pikaur (yay) -S python2-gimp
+    
 [1] Install [GIMP](https://www.gimp.org/downloads/).<br>
 [2] Clone this repository: git clone https://github.com/kritiksoman/GIMP-ML.git <br>
 [3] Open GIMP and go to Preferences -> Folders -> Plug-ins, add the folder gimp-plugins and close GIMP. <br>
